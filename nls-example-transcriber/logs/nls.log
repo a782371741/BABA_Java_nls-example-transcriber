@@ -1,0 +1,338 @@
+[2019-07-23 11:19:02] [DEBUG] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:73] -- handler added channelid:1a3b4946
+[2019-07-23 11:19:02] [DEBUG] [com.alibaba.nls.client.transport.netty4.NettyWebSocketClient:103] -- websocket channel is established after sync,connectionId:1a3b4946 ,use 1088
+[2019-07-23 11:19:02] [DEBUG] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:79] -- channel active,id:1a3b4946,13
+[2019-07-23 11:19:02] [DEBUG] [com.alibaba.nls.client.transport.netty4.NettyWebSocketClient:111] -- websocket connection is established after handshake,connectionId:1a3b4946,use 237
+[2019-07-23 11:19:02] [INFO ] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:112] -- WebSocket Client connected! response headers:io.netty.handler.codec.http.DefaultHttpHeaders@d3e259cf
+[2019-07-23 11:19:03] [DEBUG] [com.alibaba.nls.client.transport.netty4.NettyConnection:85] -- thread:1,send:{"payload":{"sample_rate":16000,"format":"pcm","enable_intermediate_result":false,"enable_inverse_text_normalization":false,"enable_punctuation_prediction":true},"context":{"sdk":{"name":"nls-sdk-java","version":"2.1.0"},"network":{"upgrade_cost":237,"connect_cost":1088}},"header":{"namespace":"SpeechTranscriber","name":"StartTranscription","message_id":"5c85639af39c45b4aee65d63f8669202","appkey":"r86s9tjNSFhlG6vJ","task_id":"aab923f7d9f84606bafb690b1d83bd8c"}}
+[2019-07-23 11:19:03] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"TranscriptionStarted","status":20000000,"message_id":"51bda2fae63f43b5b83d60da29282383","task_id":"aab923f7d9f84606bafb690b1d83bd8c","status_text":"Gateway:SUCCESS:Success."}}
+[2019-07-23 11:19:03] [DEBUG] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:85] -- channelInactive:1a3b4946
+[2019-07-23 11:19:03] [INFO ] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:105] -- connection is closed due to channelInactive,code:-1
+[2019-07-23 11:21:00] [DEBUG] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:73] -- handler added channelid:2678589b
+[2019-07-23 11:21:00] [DEBUG] [com.alibaba.nls.client.transport.netty4.NettyWebSocketClient:103] -- websocket channel is established after sync,connectionId:2678589b ,use 870
+[2019-07-23 11:21:01] [DEBUG] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:79] -- channel active,id:2678589b,13
+[2019-07-23 11:21:01] [DEBUG] [com.alibaba.nls.client.transport.netty4.NettyWebSocketClient:111] -- websocket connection is established after handshake,connectionId:2678589b,use 133
+[2019-07-23 11:21:01] [INFO ] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:112] -- WebSocket Client connected! response headers:io.netty.handler.codec.http.DefaultHttpHeaders@964ae8c6
+[2019-07-23 11:21:01] [DEBUG] [com.alibaba.nls.client.transport.netty4.NettyConnection:85] -- thread:1,send:{"payload":{"sample_rate":16000,"format":"pcm","enable_intermediate_result":false,"enable_inverse_text_normalization":false,"enable_punctuation_prediction":true},"context":{"sdk":{"name":"nls-sdk-java","version":"2.1.0"},"network":{"upgrade_cost":133,"connect_cost":870}},"header":{"namespace":"SpeechTranscriber","name":"StartTranscription","message_id":"55ce9fe6852c4c37b4e207fb624a11a2","appkey":"r86s9tjNSFhlG6vJ","task_id":"956ea27a76d345b39cba1b929fdc7188"}}
+[2019-07-23 11:21:01] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"TranscriptionStarted","status":20000000,"message_id":"a2f5382ec9544dd6a1c5d2a5e80d6307","task_id":"956ea27a76d345b39cba1b929fdc7188","status_text":"Gateway:SUCCESS:Success."}}
+[2019-07-23 11:21:01] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 11:21:01] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 11:21:01] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 11:21:01] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 11:21:01] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 11:21:01] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 11:21:01] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 11:21:01] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 11:21:01] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"SentenceBegin","status":20000000,"message_id":"63c9794581314b379e5c6897932e4906","task_id":"956ea27a76d345b39cba1b929fdc7188","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":1,"time":340}}
+[2019-07-23 11:21:02] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 11:21:02] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 11:21:02] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 11:21:02] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 11:21:02] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 11:21:02] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 11:21:02] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 11:21:02] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 11:21:02] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 11:21:02] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 11:21:03] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 11:21:03] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 11:21:03] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 11:21:03] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 11:21:03] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 11:21:03] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 11:21:03] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 11:21:03] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"SentenceEnd","status":20000000,"message_id":"776d82009b304052bc990d2b7c311651","task_id":"956ea27a76d345b39cba1b929fdc7188","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":1,"time":1690,"begin_time":340,"result":"北京的天气。","confidence":1.0,"words":[],"status":20000000,"stash_result":{"sentenceId":0,"beginTime":0,"text":"","currentTime":0}}}
+[2019-07-23 11:21:03] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 11:21:03] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 11:21:03] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 11:21:04] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 11:21:04] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 1894
+[2019-07-23 11:21:04] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:160] -- ASR wait for complete
+[2019-07-23 11:21:04] [DEBUG] [com.alibaba.nls.client.transport.netty4.NettyConnection:85] -- thread:1,send:{"header":{"namespace":"SpeechTranscriber","name":"StopTranscription","message_id":"4b4dfb1fa9c34f06b773397b454af594","task_id":"956ea27a76d345b39cba1b929fdc7188","appkey":"r86s9tjNSFhlG6vJ"}}
+[2019-07-23 11:21:04] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"TranscriptionCompleted","status":20000000,"message_id":"0f47456d709b4d5bbf4d6910dbd780ee","task_id":"956ea27a76d345b39cba1b929fdc7188","status_text":"Gateway:SUCCESS:Success."}}
+[2019-07-23 11:21:04] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:162] -- ASR latency : 39 ms
+[2019-07-23 11:21:04] [DEBUG] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:85] -- channelInactive:2678589b
+[2019-07-23 11:21:04] [INFO ] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:105] -- connection is closed due to channelInactive,code:-1
+[2019-07-23 11:22:59] [DEBUG] [com.alibaba.nls.client.util.NativeLibUtil:116] -- processor is INTEL_64 os.arch is amd64
+[2019-07-23 11:22:59] [DEBUG] [com.alibaba.nls.client.util.NativeLibUtil:91] -- architecture is WINDOWS_64 os.name is windows 10
+[2019-07-23 11:22:59] [DEBUG] [com.alibaba.nls.client.util.NativeLibUtil:91] -- architecture is WINDOWS_64 os.name is windows 10
+[2019-07-23 11:22:59] [DEBUG] [com.alibaba.nls.client.util.NativeLibUtil:141] -- native library name nlsJniOpu.dll
+[2019-07-23 11:22:59] [INFO ] [com.alibaba.nls.client.util.NativeLibUtil:149] -- begin to load from natives/windows_64/nlsJniOpu.dll
+[2019-07-23 11:22:59] [INFO ] [com.alibaba.nls.client.util.NativeLibUtil:162] -- finish to load from jar natives/windows_64/nlsJniOpu.dll
+[2019-07-23 13:30:39] [DEBUG] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:73] -- handler added channelid:c6a4dfc3
+[2019-07-23 13:30:39] [DEBUG] [com.alibaba.nls.client.transport.netty4.NettyWebSocketClient:103] -- websocket channel is established after sync,connectionId:c6a4dfc3 ,use 1190
+[2019-07-23 13:30:39] [DEBUG] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:79] -- channel active,id:c6a4dfc3,13
+[2019-07-23 13:30:40] [ERROR] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:118] -- WebSocket Client failed to connect,status:403 Forbidden,reason:Meta:ACCESS_DENIED:The token 'com.alibaba.nls.client.AccessToken@44a3ec6b' is invalid!
+[2019-07-23 13:30:40] [WARN ] [com.alibaba.nls.client.protocol.NlsClient:94] -- failed to connect to server the 0 time:WebSocket Client failed to connect,status:403 Forbidden,reason:Meta:ACCESS_DENIED:The token 'com.alibaba.nls.client.AccessToken@44a3ec6b' is invalid! ,try again 
+[2019-07-23 13:30:40] [DEBUG] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:73] -- handler added channelid:d49fdf96
+[2019-07-23 13:30:40] [DEBUG] [com.alibaba.nls.client.transport.netty4.NettyWebSocketClient:103] -- websocket channel is established after sync,connectionId:d49fdf96 ,use 18
+[2019-07-23 13:30:40] [DEBUG] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:79] -- channel active,id:d49fdf96,15
+[2019-07-23 13:30:40] [ERROR] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:118] -- WebSocket Client failed to connect,status:403 Forbidden,reason:Meta:ACCESS_DENIED:The token 'com.alibaba.nls.client.AccessToken@44a3ec6b' is invalid!
+[2019-07-23 13:30:40] [WARN ] [com.alibaba.nls.client.protocol.NlsClient:94] -- failed to connect to server the 1 time:WebSocket Client failed to connect,status:403 Forbidden,reason:Meta:ACCESS_DENIED:The token 'com.alibaba.nls.client.AccessToken@44a3ec6b' is invalid! ,try again 
+[2019-07-23 13:30:40] [DEBUG] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:73] -- handler added channelid:501ba730
+[2019-07-23 13:30:40] [DEBUG] [com.alibaba.nls.client.transport.netty4.NettyWebSocketClient:103] -- websocket channel is established after sync,connectionId:501ba730 ,use 19
+[2019-07-23 13:30:40] [DEBUG] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:79] -- channel active,id:501ba730,16
+[2019-07-23 13:30:40] [ERROR] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:118] -- WebSocket Client failed to connect,status:403 Forbidden,reason:Meta:ACCESS_DENIED:The token 'com.alibaba.nls.client.AccessToken@44a3ec6b' is invalid!
+[2019-07-23 13:30:40] [ERROR] [com.alibaba.nls.client.protocol.NlsClient:90] -- failed to connect to server after 3 tries,error msg is :WebSocket Client failed to connect,status:403 Forbidden,reason:Meta:ACCESS_DENIED:The token 'com.alibaba.nls.client.AccessToken@44a3ec6b' is invalid!
+[2019-07-23 13:30:40] [DEBUG] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:85] -- channelInactive:501ba730
+[2019-07-23 13:30:40] [DEBUG] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:85] -- channelInactive:d49fdf96
+[2019-07-23 13:30:40] [DEBUG] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:85] -- channelInactive:c6a4dfc3
+[2019-07-23 13:30:40] [DEBUG] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:96] -- channel inactive during handshake,connectionId:d49fdf96
+[2019-07-23 13:30:40] [DEBUG] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:96] -- channel inactive during handshake,connectionId:501ba730
+[2019-07-23 13:30:40] [DEBUG] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:96] -- channel inactive during handshake,connectionId:c6a4dfc3
+[2019-07-23 13:30:40] [ERROR] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:153] -- error
+java.lang.IllegalStateException: complete already: DefaultChannelPromise@7cab2945(failure: java.lang.Exception: WebSocket Client failed to connect,status:403 Forbidden,reason:Meta:ACCESS_DENIED:The token 'com.alibaba.nls.client.AccessToken@44a3ec6b' is invalid!)
+	at io.netty.util.concurrent.DefaultPromise.setFailure(DefaultPromise.java:116) ~[netty-common-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.DefaultChannelPromise.setFailure(DefaultChannelPromise.java:87) ~[netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at com.alibaba.nls.client.transport.netty4.WebSocketClientHandler.channelInactive(WebSocketClientHandler.java:97) ~[nls-sdk-common-2.1.0.jar:na]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.handler.codec.MessageAggregator.channelInactive(MessageAggregator.java:417) [netty-codec-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelInactive(CombinedChannelDuplexHandler.java:420) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:377) [netty-codec-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:342) [netty-codec-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.handler.codec.http.HttpClientCodec$Decoder.channelInactive(HttpClientCodec.java:282) [netty-codec-http-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelInactive(CombinedChannelDuplexHandler.java:223) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:377) [netty-codec-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:342) [netty-codec-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.handler.ssl.SslHandler.channelInactive(SslHandler.java:1009) [netty-handler-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1354) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:917) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:822) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163) [netty-common-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:379) [netty-common-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354) [netty-common-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:678) [netty-common-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:473) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138) [netty-common-4.1.17.Final.jar:4.1.17.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_171]
+Caused by: java.lang.Exception: channel inactive during handshake,connectionId:d49fdf96
+	... 36 common frames omitted
+[2019-07-23 13:30:40] [ERROR] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:153] -- error
+java.lang.IllegalStateException: complete already: DefaultChannelPromise@204593fb(failure: java.lang.Exception: WebSocket Client failed to connect,status:403 Forbidden,reason:Meta:ACCESS_DENIED:The token 'com.alibaba.nls.client.AccessToken@44a3ec6b' is invalid!)
+	at io.netty.util.concurrent.DefaultPromise.setFailure(DefaultPromise.java:116) ~[netty-common-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.DefaultChannelPromise.setFailure(DefaultChannelPromise.java:87) ~[netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at com.alibaba.nls.client.transport.netty4.WebSocketClientHandler.channelInactive(WebSocketClientHandler.java:97) ~[nls-sdk-common-2.1.0.jar:na]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.handler.codec.MessageAggregator.channelInactive(MessageAggregator.java:417) [netty-codec-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelInactive(CombinedChannelDuplexHandler.java:420) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:377) [netty-codec-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:342) [netty-codec-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.handler.codec.http.HttpClientCodec$Decoder.channelInactive(HttpClientCodec.java:282) [netty-codec-http-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelInactive(CombinedChannelDuplexHandler.java:223) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:377) [netty-codec-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:342) [netty-codec-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.handler.ssl.SslHandler.channelInactive(SslHandler.java:1009) [netty-handler-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1354) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:917) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:822) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163) [netty-common-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:379) [netty-common-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354) [netty-common-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:678) [netty-common-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:473) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138) [netty-common-4.1.17.Final.jar:4.1.17.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_171]
+Caused by: java.lang.Exception: channel inactive during handshake,connectionId:501ba730
+	... 36 common frames omitted
+[2019-07-23 13:30:40] [ERROR] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:153] -- error
+java.lang.IllegalStateException: complete already: DefaultChannelPromise@24ff72b(failure: java.lang.Exception: WebSocket Client failed to connect,status:403 Forbidden,reason:Meta:ACCESS_DENIED:The token 'com.alibaba.nls.client.AccessToken@44a3ec6b' is invalid!)
+	at io.netty.util.concurrent.DefaultPromise.setFailure(DefaultPromise.java:116) ~[netty-common-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.DefaultChannelPromise.setFailure(DefaultChannelPromise.java:87) ~[netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at com.alibaba.nls.client.transport.netty4.WebSocketClientHandler.channelInactive(WebSocketClientHandler.java:97) ~[nls-sdk-common-2.1.0.jar:na]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.handler.codec.MessageAggregator.channelInactive(MessageAggregator.java:417) [netty-codec-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelInactive(CombinedChannelDuplexHandler.java:420) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:377) [netty-codec-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:342) [netty-codec-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.handler.codec.http.HttpClientCodec$Decoder.channelInactive(HttpClientCodec.java:282) [netty-codec-http-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelInactive(CombinedChannelDuplexHandler.java:223) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:377) [netty-codec-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:342) [netty-codec-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.handler.ssl.SslHandler.channelInactive(SslHandler.java:1009) [netty-handler-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1354) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:917) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:822) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163) [netty-common-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:379) [netty-common-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354) [netty-common-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:678) [netty-common-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:473) [netty-transport-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.17.Final.jar:4.1.17.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138) [netty-common-4.1.17.Final.jar:4.1.17.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_171]
+Caused by: java.lang.Exception: channel inactive during handshake,connectionId:c6a4dfc3
+	... 36 common frames omitted
+[2019-07-23 13:42:53] [DEBUG] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:73] -- handler added channelid:d0ee8cb6
+[2019-07-23 13:42:53] [DEBUG] [com.alibaba.nls.client.transport.netty4.NettyWebSocketClient:103] -- websocket channel is established after sync,connectionId:d0ee8cb6 ,use 931
+[2019-07-23 13:42:53] [DEBUG] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:79] -- channel active,id:d0ee8cb6,13
+[2019-07-23 13:42:53] [DEBUG] [com.alibaba.nls.client.transport.netty4.NettyWebSocketClient:111] -- websocket connection is established after handshake,connectionId:d0ee8cb6,use 196
+[2019-07-23 13:42:53] [INFO ] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:112] -- WebSocket Client connected! response headers:io.netty.handler.codec.http.DefaultHttpHeaders@1bf59453
+[2019-07-23 13:42:53] [DEBUG] [com.alibaba.nls.client.transport.netty4.NettyConnection:85] -- thread:1,send:{"payload":{"sample_rate":16000,"format":"pcm","enable_intermediate_result":false,"enable_inverse_text_normalization":false,"enable_punctuation_prediction":true},"context":{"sdk":{"name":"nls-sdk-java","version":"2.1.0"},"network":{"upgrade_cost":196,"connect_cost":931}},"header":{"namespace":"SpeechTranscriber","name":"StartTranscription","message_id":"e942eb74b85b40f49b5d5cff8d4aab31","appkey":"r86s9tjNSFhlG6vJ","task_id":"04ee18f3880b4aafba96e822cd84a862"}}
+[2019-07-23 13:42:53] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"TranscriptionStarted","status":20000000,"message_id":"cec417d3b1e9462db417a1bdb584d0a4","task_id":"04ee18f3880b4aafba96e822cd84a862","status_text":"Gateway:SUCCESS:Success."}}
+[2019-07-23 13:42:53] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:42:53] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:42:53] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:42:53] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:42:54] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:42:54] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:42:54] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:42:54] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:42:54] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"SentenceBegin","status":20000000,"message_id":"a30b7efc46014a5eba32b286cfc15091","task_id":"04ee18f3880b4aafba96e822cd84a862","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":1,"time":340}}
+[2019-07-23 13:42:54] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:42:54] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:42:54] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:42:54] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:42:54] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:42:54] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:42:55] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:42:55] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:42:55] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:42:55] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:42:55] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:42:55] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:42:55] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:42:55] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:42:55] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:42:55] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:42:56] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:42:56] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"SentenceEnd","status":20000000,"message_id":"98f329b755d7495c950de192f21f7282","task_id":"04ee18f3880b4aafba96e822cd84a862","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":1,"time":1690,"begin_time":340,"result":"北京的天气。","confidence":1.0,"words":[],"status":20000000,"stash_result":{"sentenceId":0,"beginTime":0,"text":"","currentTime":0}}}
+[2019-07-23 13:42:56] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:42:56] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:42:56] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:42:56] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:42:56] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 1894
+[2019-07-23 13:42:56] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:160] -- ASR wait for complete
+[2019-07-23 13:42:56] [DEBUG] [com.alibaba.nls.client.transport.netty4.NettyConnection:85] -- thread:1,send:{"header":{"namespace":"SpeechTranscriber","name":"StopTranscription","message_id":"d991df70abe14060bfdcada0c9eaa6e6","task_id":"04ee18f3880b4aafba96e822cd84a862","appkey":"r86s9tjNSFhlG6vJ"}}
+[2019-07-23 13:42:56] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"TranscriptionCompleted","status":20000000,"message_id":"7e4c533c9e1c43e0ac1c51a511b1c3ec","task_id":"04ee18f3880b4aafba96e822cd84a862","status_text":"Gateway:SUCCESS:Success."}}
+[2019-07-23 13:42:56] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:162] -- ASR latency : 20 ms
+[2019-07-23 13:42:56] [DEBUG] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:85] -- channelInactive:d0ee8cb6
+[2019-07-23 13:42:56] [INFO ] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:105] -- connection is closed due to channelInactive,code:-1
+[2019-07-23 13:43:39] [DEBUG] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:73] -- handler added channelid:ce359e5f
+[2019-07-23 13:43:39] [DEBUG] [com.alibaba.nls.client.transport.netty4.NettyWebSocketClient:103] -- websocket channel is established after sync,connectionId:ce359e5f ,use 924
+[2019-07-23 13:43:39] [DEBUG] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:79] -- channel active,id:ce359e5f,13
+[2019-07-23 13:43:39] [DEBUG] [com.alibaba.nls.client.transport.netty4.NettyWebSocketClient:111] -- websocket connection is established after handshake,connectionId:ce359e5f,use 135
+[2019-07-23 13:43:39] [INFO ] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:112] -- WebSocket Client connected! response headers:io.netty.handler.codec.http.DefaultHttpHeaders@ef2ec396
+[2019-07-23 13:43:39] [DEBUG] [com.alibaba.nls.client.transport.netty4.NettyConnection:85] -- thread:1,send:{"payload":{"sample_rate":16000,"format":"pcm","enable_intermediate_result":false,"enable_inverse_text_normalization":false,"enable_punctuation_prediction":true},"context":{"sdk":{"name":"nls-sdk-java","version":"2.1.0"},"network":{"upgrade_cost":135,"connect_cost":924}},"header":{"namespace":"SpeechTranscriber","name":"StartTranscription","message_id":"62ce9570da2d4998a639b9c9ff0f2521","appkey":"t4M3PrOOEqlQwjhy","task_id":"b69c09137822497e905a826cc71381b0"}}
+[2019-07-23 13:43:40] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"TranscriptionStarted","status":20000000,"message_id":"aa424e872b94453ca26b33021b3f7b18","task_id":"b69c09137822497e905a826cc71381b0","status_text":"Gateway:SUCCESS:Success."}}
+[2019-07-23 13:43:40] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:43:40] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:43:40] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:43:40] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:43:40] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:43:40] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:43:40] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:43:40] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:43:40] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"SentenceBegin","status":20000000,"message_id":"f798a01c826d444dbd8bcea0bb580528","task_id":"b69c09137822497e905a826cc71381b0","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":1,"time":340}}
+[2019-07-23 13:43:40] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:43:40] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:43:41] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:43:41] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:43:41] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:43:41] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:43:41] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:43:41] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:43:41] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:43:41] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:43:41] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:43:41] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:43:42] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:43:42] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:43:42] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:43:42] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:43:42] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:43:42] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"SentenceEnd","status":20000000,"message_id":"225354b9a1d14727b3f417b7b206f13e","task_id":"b69c09137822497e905a826cc71381b0","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":1,"time":1690,"begin_time":340,"result":"北京的天气。","confidence":1.0,"words":[],"status":20000000,"stash_result":{"sentenceId":0,"beginTime":0,"text":"","currentTime":0}}}
+[2019-07-23 13:43:42] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:43:42] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:43:42] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:43:42] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 3200
+[2019-07-23 13:43:42] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:149] -- send data pack length: 1894
+[2019-07-23 13:43:43] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:160] -- ASR wait for complete
+[2019-07-23 13:43:43] [DEBUG] [com.alibaba.nls.client.transport.netty4.NettyConnection:85] -- thread:1,send:{"header":{"namespace":"SpeechTranscriber","name":"StopTranscription","message_id":"f97e628beddb4871a1c29e8970c32c77","task_id":"b69c09137822497e905a826cc71381b0","appkey":"t4M3PrOOEqlQwjhy"}}
+[2019-07-23 13:43:43] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"TranscriptionCompleted","status":20000000,"message_id":"1a79617959f94c5d91452fb74cc37e22","task_id":"b69c09137822497e905a826cc71381b0","status_text":"Gateway:SUCCESS:Success."}}
+[2019-07-23 13:43:43] [INFO ] [com.alibaba.nls.client.SpeechTranscriberDemo:162] -- ASR latency : 23 ms
+[2019-07-23 13:43:43] [DEBUG] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:85] -- channelInactive:ce359e5f
+[2019-07-23 13:43:43] [INFO ] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:105] -- connection is closed due to channelInactive,code:-1
+[2019-07-23 14:21:00] [DEBUG] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:73] -- handler added channelid:11cc2abd
+[2019-07-23 14:21:00] [DEBUG] [com.alibaba.nls.client.transport.netty4.NettyWebSocketClient:103] -- websocket channel is established after sync,connectionId:11cc2abd ,use 949
+[2019-07-23 14:21:00] [DEBUG] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:79] -- channel active,id:11cc2abd,12
+[2019-07-23 14:21:00] [DEBUG] [com.alibaba.nls.client.transport.netty4.NettyWebSocketClient:111] -- websocket connection is established after handshake,connectionId:11cc2abd,use 238
+[2019-07-23 14:21:00] [INFO ] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:112] -- WebSocket Client connected! response headers:io.netty.handler.codec.http.DefaultHttpHeaders@f3b08e9e
+[2019-07-23 14:21:01] [DEBUG] [com.alibaba.nls.client.transport.netty4.NettyConnection:85] -- thread:1,send:{"payload":{"sample_rate":16000,"format":"pcm","enable_intermediate_result":true,"enable_inverse_text_normalization":false,"enable_punctuation_prediction":true},"context":{"sdk":{"name":"nls-sdk-java","version":"2.1.0"},"network":{"upgrade_cost":238,"connect_cost":949}},"header":{"namespace":"SpeechTranscriber","name":"StartTranscription","message_id":"c736e669178c476182826fb50b79cbcb","appkey":"t4M3PrOOEqlQwjhy","task_id":"fb552c3c295b4244bf8342b086f7addd"}}
+[2019-07-23 14:21:01] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"TranscriptionStarted","status":20000000,"message_id":"940feb49ddd4450f85bfd86b610ebb80","task_id":"fb552c3c295b4244bf8342b086f7addd","status_text":"Gateway:SUCCESS:Success."}}
+[2019-07-23 14:21:02] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"SentenceBegin","status":20000000,"message_id":"69cff17f31f34fc1b1ba125a5333f86e","task_id":"fb552c3c295b4244bf8342b086f7addd","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":1,"time":0}}
+[2019-07-23 14:21:06] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"TranscriptionResultChanged","status":20000000,"message_id":"4f23383cf5b545ea8cb0451a1a983796","task_id":"fb552c3c295b4244bf8342b086f7addd","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":1,"time":4550,"result":"文","confidence":1.0,"words":[],"status":20000000}}
+[2019-07-23 14:21:06] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"TranscriptionResultChanged","status":20000000,"message_id":"e2206eb703a6455182a5ebe34e1e0e04","task_id":"fb552c3c295b4244bf8342b086f7addd","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":1,"time":4850,"result":"文文","confidence":1.0,"words":[],"status":20000000}}
+[2019-07-23 14:21:07] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"TranscriptionResultChanged","status":20000000,"message_id":"f10bfa2cea15419cb9c44ed70446bfc1","task_id":"fb552c3c295b4244bf8342b086f7addd","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":1,"time":5150,"result":"雯雯回","confidence":1.0,"words":[],"status":20000000}}
+[2019-07-23 14:21:07] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"TranscriptionResultChanged","status":20000000,"message_id":"bf08df216e5247f7a929c56363f508d3","task_id":"fb552c3c295b4244bf8342b086f7addd","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":1,"time":5450,"result":"文文委员会","confidence":1.0,"words":[],"status":20000000}}
+[2019-07-23 14:21:07] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"TranscriptionResultChanged","status":20000000,"message_id":"93d2bbc3c7eb4519a7d5ac3fe56ba08b","task_id":"fb552c3c295b4244bf8342b086f7addd","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":1,"time":5750,"result":"文文委会会","confidence":1.0,"words":[],"status":20000000}}
+[2019-07-23 14:21:11] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"TranscriptionResultChanged","status":20000000,"message_id":"759272520e2942dd9677df4b5277e4ed","task_id":"fb552c3c295b4244bf8342b086f7addd","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":1,"time":9650,"result":"文文委员会喂喂","confidence":1.0,"words":[],"status":20000000}}
+[2019-07-23 14:21:13] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"TranscriptionResultChanged","status":20000000,"message_id":"b903f7f3c5a54d2b9d712e34ba332f40","task_id":"fb552c3c295b4244bf8342b086f7addd","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":1,"time":11750,"result":"文文委员会喂喂喂","confidence":1.0,"words":[],"status":20000000}}
+[2019-07-23 14:21:17] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"SentenceEnd","status":20000000,"message_id":"143d2b857d8144ecb936b004e4695922","task_id":"fb552c3c295b4244bf8342b086f7addd","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":1,"time":15010,"begin_time":0,"result":"文文委员会喂喂喂，你好。","confidence":1.0,"words":[],"status":20000000,"stash_result":{"sentenceId":0,"beginTime":0,"text":"","currentTime":0}}}
+[2019-07-23 14:21:17] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"SentenceBegin","status":20000000,"message_id":"2e852e7bafea4d2a88be660e106fd58d","task_id":"fb552c3c295b4244bf8342b086f7addd","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":2,"time":15010}}
+[2019-07-23 14:21:20] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"TranscriptionResultChanged","status":20000000,"message_id":"300a64d0d67348b7b76890f00e871166","task_id":"fb552c3c295b4244bf8342b086f7addd","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":2,"time":18650,"result":"十五","confidence":1.0,"words":[],"status":20000000}}
+[2019-07-23 14:21:24] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"TranscriptionResultChanged","status":20000000,"message_id":"35543fdfe48c4ae2ac9fb47434bd0918","task_id":"fb552c3c295b4244bf8342b086f7addd","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":2,"time":21950,"result":"十五时","confidence":1.0,"words":[],"status":20000000}}
+[2019-07-23 14:21:26] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"TranscriptionResultChanged","status":20000000,"message_id":"5e7e7a066fb1486491b7513bb38498fe","task_id":"fb552c3c295b4244bf8342b086f7addd","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":2,"time":24650,"result":"十五时时","confidence":1.0,"words":[],"status":20000000}}
+[2019-07-23 14:21:27] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"TranscriptionResultChanged","status":20000000,"message_id":"60a9f164cb4040aeab40135f29f5c039","task_id":"fb552c3c295b4244bf8342b086f7addd","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":2,"time":24950,"result":"十五时时间","confidence":1.0,"words":[],"status":20000000}}
+[2019-07-23 14:21:28] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"SentenceEnd","status":20000000,"message_id":"1730c494c442453c95f699c46cea1365","task_id":"fb552c3c295b4244bf8342b086f7addd","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":2,"time":25730,"begin_time":15010,"result":"十五时时间","confidence":1.0,"words":[],"status":20000000,"stash_result":{"sentenceId":0,"beginTime":0,"text":"","currentTime":0}}}
+[2019-07-23 14:21:28] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"SentenceBegin","status":20000000,"message_id":"0667773df9084e23a74efa58a5aed8d1","task_id":"fb552c3c295b4244bf8342b086f7addd","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":3,"time":26350}}
+[2019-07-23 14:34:45] [DEBUG] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:73] -- handler added channelid:66e8c2a0
+[2019-07-23 14:34:45] [DEBUG] [com.alibaba.nls.client.transport.netty4.NettyWebSocketClient:103] -- websocket channel is established after sync,connectionId:66e8c2a0 ,use 948
+[2019-07-23 14:34:45] [DEBUG] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:79] -- channel active,id:66e8c2a0,12
+[2019-07-23 14:34:45] [DEBUG] [com.alibaba.nls.client.transport.netty4.NettyWebSocketClient:111] -- websocket connection is established after handshake,connectionId:66e8c2a0,use 151
+[2019-07-23 14:34:45] [INFO ] [com.alibaba.nls.client.transport.netty4.WebSocketClientHandler:112] -- WebSocket Client connected! response headers:io.netty.handler.codec.http.DefaultHttpHeaders@77765263
+[2019-07-23 14:34:45] [DEBUG] [com.alibaba.nls.client.transport.netty4.NettyConnection:85] -- thread:1,send:{"payload":{"sample_rate":16000,"format":"pcm","enable_intermediate_result":false,"enable_inverse_text_normalization":false,"enable_punctuation_prediction":true},"context":{"sdk":{"name":"nls-sdk-java","version":"2.1.0"},"network":{"upgrade_cost":151,"connect_cost":948}},"header":{"namespace":"SpeechTranscriber","name":"StartTranscription","message_id":"c7e6580a27bb4e11b324d21948139fb9","appkey":"t4M3PrOOEqlQwjhy","task_id":"f5ee1d2bb92e4368921b2ac6e5a928e5"}}
+[2019-07-23 14:34:45] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"TranscriptionStarted","status":20000000,"message_id":"ff65c0fd12f2405ab559eb75a5bf78ef","task_id":"f5ee1d2bb92e4368921b2ac6e5a928e5","status_text":"Gateway:SUCCESS:Success."}}
+[2019-07-23 14:34:46] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"SentenceBegin","status":20000000,"message_id":"dda244d18bba44daaa24f42346a4b2bf","task_id":"f5ee1d2bb92e4368921b2ac6e5a928e5","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":1,"time":0}}
+[2019-07-23 14:35:01] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"SentenceEnd","status":20000000,"message_id":"b69d3d6bfdbb4a15acd8eb0e23761f7e","task_id":"f5ee1d2bb92e4368921b2ac6e5a928e5","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":1,"time":15010,"begin_time":0,"result":"喂荣登喂。喂。","confidence":1.0,"words":[],"status":20000000,"stash_result":{"sentenceId":0,"beginTime":0,"text":"","currentTime":0}}}
+[2019-07-23 14:35:01] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"SentenceBegin","status":20000000,"message_id":"4bcebb3d40e04e4cb2c381d2cd24bc0e","task_id":"f5ee1d2bb92e4368921b2ac6e5a928e5","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":2,"time":15010}}
+[2019-07-23 14:35:16] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"SentenceEnd","status":20000000,"message_id":"944994404f004eea982ba385b45d714b","task_id":"f5ee1d2bb92e4368921b2ac6e5a928e5","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":2,"time":30020,"begin_time":15010,"result":"喂","confidence":1.0,"words":[],"status":20000000,"stash_result":{"sentenceId":0,"beginTime":0,"text":"","currentTime":0}}}
+[2019-07-23 14:35:16] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"SentenceBegin","status":20000000,"message_id":"1edbfcbcee4f4b2d872f9625f348b177","task_id":"f5ee1d2bb92e4368921b2ac6e5a928e5","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":3,"time":30020}}
+[2019-07-23 14:35:23] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"SentenceEnd","status":20000000,"message_id":"b8b979c21aa8476dac880d16e95f2bb7","task_id":"f5ee1d2bb92e4368921b2ac6e5a928e5","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":3,"time":36490,"begin_time":30020,"result":"","confidence":1.0,"words":[],"status":20000000,"stash_result":{"sentenceId":0,"beginTime":0,"text":"","currentTime":0}}}
+[2019-07-23 14:35:23] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"SentenceBegin","status":20000000,"message_id":"98bde906ce884b0386742748b6d33805","task_id":"f5ee1d2bb92e4368921b2ac6e5a928e5","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":4,"time":37020}}
+[2019-07-23 14:35:37] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"SentenceEnd","status":20000000,"message_id":"7a1a2b2a320846e79ba5713cfe53347e","task_id":"f5ee1d2bb92e4368921b2ac6e5a928e5","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":4,"time":52030,"begin_time":37020,"result":"","confidence":1.0,"words":[],"status":20000000,"stash_result":{"sentenceId":0,"beginTime":0,"text":"","currentTime":0}}}
+[2019-07-23 14:35:38] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"SentenceBegin","status":20000000,"message_id":"e708fd30323b44dfb2ba0b9b15ad2f34","task_id":"f5ee1d2bb92e4368921b2ac6e5a928e5","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":5,"time":52030}}
+[2019-07-23 14:35:53] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"SentenceEnd","status":20000000,"message_id":"77e92350ae3a432d9220934ec1a03272","task_id":"f5ee1d2bb92e4368921b2ac6e5a928e5","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":5,"time":67040,"begin_time":52030,"result":"","confidence":1.0,"words":[],"status":20000000,"stash_result":{"sentenceId":0,"beginTime":0,"text":"","currentTime":0}}}
+[2019-07-23 14:35:53] [DEBUG] [com.alibaba.nls.client.protocol.asr.SpeechTranscriberListener:113] -- on message:{"header":{"namespace":"SpeechTranscriber","name":"SentenceBegin","status":20000000,"message_id":"ca3f94f36f2243129d4e56d7fb85abd0","task_id":"f5ee1d2bb92e4368921b2ac6e5a928e5","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":6,"time":67040}}
